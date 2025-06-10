@@ -24,7 +24,7 @@ I chose a hybrid recommendation approach—combining collaborative filtering wit
 
 TLDR; It is more effective for recipe suggestions because it leverages both user interactions and recipe content, solves the cold-start problem, and produces more accurate, diverse, and reliable recommendations than collaborative filtering alone.
 
-## Results
+## 📝 Results
 
 | Metric       | Train | Test  |
 | ------------ | ----- | ----- |
@@ -32,6 +32,12 @@ TLDR; It is more effective for recipe suggestions because it leverages both user
 | Recall@10    | 3.93% | 1.88% |
 | AUC          | 85.4% | 69.9% |
 | F1 Score     | 1.80% | 1.10% |
+
+### How do our results compare?
+Industry-standard values for these metrics are highly dataset and domain-dependent, but typical ranges are:
+
+- Precision@10, Recall@10: Often between 1–10% for large catalogs.
+- AUC: Values above 0.7 are considered good
 
 ## 📦 Datasets
 
